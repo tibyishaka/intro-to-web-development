@@ -15,6 +15,37 @@
   display :flex;
   justify-content: space-between;
 }
+/* Sticky Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* Or any color that matches your theme */
+  z-index: 1000;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Push the content down so it's not hidden under the navbar */
+body {
+  margin: 0;
+  padding-top: 100px; /* Adjust depending on your navbar height */
+}
+
+/* Optional styling for navbar items */
+.navbar-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-items li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
 li{
   display:inline-block;
   list-style-type: none;
