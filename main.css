@@ -85,17 +85,32 @@ footer {
   color: white;
   padding: 30px;
 }
-.about {
-background-color:whte;
-color: black;
- text-align: center;
+.about{
+  background-color:white;
+}
+.about h3 {
+  text-align:center;
+
+}
+.about section{
+  text-align: center;
+  color:black ;
+
 }
 
-.goals {
-
-  color:#D9D9D9;
-  width:1512px;
-  height:388px;
-  top:1541px;
+.goals{
+  background-image:#D9D9D9;
 }
+
+.goals h2 {
+  color: black;
+  text-align:center;
+
+}
+.goals section{
+  color: black;
+  text-align:center;
+
+}
+
 /* Write your code below this */
