@@ -87,6 +87,9 @@ footer {
 }
 .about{
   background-color:white;
+  height: 388px;
+  width: 1512px;
+  Top: 598px;
 }
 .about h3 {
   text-align:center;
@@ -99,7 +102,10 @@ footer {
 }
 
 .goals{
-  background-image:#D9D9D9;
+  width: 1512px;
+  height: 388px;
+  Top: 1541px;
+  background-color:#D9D9D9;
 }
 
 .goals h2 {
