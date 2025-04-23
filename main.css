@@ -85,4 +85,17 @@ footer {
   color: white;
   padding: 30px;
 }
+.about {
+background-color:whte;
+color: black;
+ text-align: center;
+}
+
+.goals {
+
+  color:#D9D9D9;
+  width:1512px;
+  height:388px;
+  top:1541px;
+}
 /* Write your code below this */
